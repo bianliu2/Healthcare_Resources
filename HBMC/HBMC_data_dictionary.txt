@@ -1,0 +1,58 @@
+Yearly counts of HBMC in the U.S., 2012-2019
+Year = calendar year
+FFS = fee-for-service population
+H0 = all HBMC
+H1 = HBMC in private residents
+H2 = HBMC in domiciliary settings
+B0 = Beneficiaries with HBMC
+B1 = Beneficiaries with HBMC in private residents
+B2 = Beneficiaries with HBMC in domiciliary settings
+nB0 = New beneficiaries with HBMC
+nB1 = New beneficiaries with HBMC in private residents
+nB2 = New beneficiaries with HBMC in domiciliary settings
+NPI0 = Providers with HBMC
+NPI1 = Providers with HBMC in private residents
+NPI2 = Providers with HBMC in domiciliary settings
+
+
+ 
+Yearly HBMC at the state-level, 2012-2019 
+StateFips = State FIPs code
+State= State name
+Abbr = State abbreviation
+Year = calendar year
+FFSpop = fee-for-service population
+H0 = Utilization density of overall HBMC = HBMC per 1000 FFS beneficiaries
+H1 = Utilization density of HBMC in private residents = HBMC in private residents per 1000 FFS beneficiaries
+H2 = Utilization density of HBMC in domiciliary settings = HBMC in in domiciliary settings per 1000 FFS beneficiaries
+Bene = Beneficiaries with all BHMC per 1000 FFS beneficiaries
+BeneH = Beneficiaries with HBMC in private residents per 1000 FFS beneficiaries
+BeneM = Beneficiaries with HBMC in domiciliary settings per 1000 FFS beneficiaries
+newBene = New Beneficiaries with HBMC per 1000 FFS beneficiaries
+newBeneH = New Beneficiaries with HBMC in private residents per 1000 FFS beneficiaries
+newBeneM = New Beneficiaries with HBMC in domiciliary settings per 1000 FFS beneficiaries
+NPIH0 = Providers with HBMC per 10,000 FFS beneficiaries
+
+* Those with NAs in CMS data were assumed very low utilization and replaced by 11 as substitutions. e.g., States with no HBMC due to cell suppression rule by CMS were assumed to have 11 HBMC visits. States with no beneficiaries with HBMC due to cell suppression rule by CMS were assumed to have 11 beneficiaries with HBMC visits.   
+
+
+
+Yearly HBMC at the county-level, 2012-2019 
+StateFips = State FIPs code
+State= State name
+Abbr = State abbreviation
+Year = calendar year
+FFSpop = fee-for-service population
+H0 = Utilization density of overall HBMC = HBMC per 1000 FFS beneficiaries
+H1 = Utilization density of HBMC in private residents = HBMC in private residents per 1000 FFS beneficiaries
+H2 = Utilization density of HBMC in domiciliary settings = HBMC in in domiciliary settings per 1000 FFS beneficiaries
+Bene = Beneficiaries with all BHMC per 1000 FFS beneficiaries
+BeneH = Beneficiaries with HBMC in private residents per 1000 FFS beneficiaries
+BeneM = Beneficiaries with HBMC in domiciliary settings per 1000 FFS beneficiaries
+newBene = New Beneficiaries with HBMC per 1000 FFS beneficiaries
+newBeneH = New Beneficiaries with HBMC in private residents per 1000 FFS beneficiaries
+newBeneM = New Beneficiaries with HBMC in domiciliary settings per 1000 FFS beneficiaries
+NPIH0 = Providers with HBMC per 10,000 FFS beneficiaries
+
+* Those with NAs in CMS data were assumed very low utilization and replaced by 11 as substitutions. e.g., Counties with no HBMC due to cell suppression rule by CMS were assumed to have 11 HBMC visits. Counties with no beneficiaries with HBMC due to cell suppression rule by CMS were assumed to have 11 beneficiaries with HBMC visits.   
+
